@@ -1,75 +1,3 @@
-/*Login Page*/
-.face {
-  background-image: url("src/images/BD-login.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: #9ce1edad;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100vh;
-}
-.content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid #cd0808;
-  background-color: #ffffffa1;
-  border-radius: 10px;
-  gap: 20px;
-  padding: 50px;
-}
-.content h1 {
-  font-family: "Roboto", sans-serif;
-  font-size: 2.5em;
-  color: rgb(110, 110, 110);
-  font-weight: bold;
-}
-.content span {
-  display: flex;
-  flex-direction: row;
-  text-align: center;
-  justify-content: center;
-  font-family: "Roboto", sans-serif;
-}
-.link-no {
-  text-decoration: none;
-  color: rgb(110, 110, 110);
-  font-weight: bold;
-}
-.link-no:hover {
-  color: rgb(252, 77, 77);
-  text-decoration: underline;
-}
-.field-wrapper {
-  display: flex;
-  justify-content: center;
-  margin: 10px;
-}
-.wrap-submit {
-  background-color: rgb(252, 77, 77);
-  color: white;
-  border: 1px solid #fdfdfd;
-  border-radius: 15px;
-  padding: 10px 120px;
-  font-family: "Roboto", sans-serif;
-  font-size: 1em;
-}
-input[type="text"],
-input[type="password"] {
-  width: 300px;
-  padding: 10px;
-  margin: 5px 0;
-  border: 1px solid #aaa;
-  border-radius: 15px;
-  font-size: 16px;
-}
-/*---------------------------------------------------------------------------*/
-/*Home Page*/
 * {
   margin: 0;
   padding: 0;
@@ -79,10 +7,10 @@ input[type="password"] {
 .hd-component {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 100px;
-  margin: 7px auto;
+  margin: 7px 200px;
 }
 .hd-component .slogan {
   display: flex;

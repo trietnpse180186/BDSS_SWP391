@@ -1,7 +1,10 @@
 import React from "react";
 import { FaBell, FaCog } from "react-icons/fa";
-import "./style.css";
+import "./HomePage.css";
 import { Link } from "react-router";
+import banner from "../images/banner.jpeg";
+import logo from "../images/logo.jpeg";
+import image1 from "../images/image1.jpg";
 export default function HomePage() {
   return (
     <>
@@ -17,7 +20,7 @@ export default function HomePage() {
               <em> Một cuộc đời ở lại</em>
             </div>
             <div className="logo">
-              <img src="src/images/logo.jpeg" />
+              <img src={logo} />
             </div>
             <div className="authorization">
               <ul style={{ listStyleType: "none" }}>
@@ -51,6 +54,9 @@ export default function HomePage() {
               <a href="#">Hỏi Đáp</a>
             </div>
             <div className="item">
+              <a href="#">Blog</a>
+            </div>
+            <div className="item">
               <a href="#">Liên hệ</a>
             </div>
           </div>
@@ -58,7 +64,7 @@ export default function HomePage() {
       </div>
       <div className="home-body">
         <div className="bd-banner">
-          <img src="src/images/banner.jpeg" alt="Banner" />
+          <img src={banner} alt="Banner" />
         </div>
         <div className="bd-content">
           <link
@@ -67,10 +73,7 @@ export default function HomePage() {
           />
           <div className="bd-content-above">
             <div className="content-above-left">
-              <img
-                src="https://miro.medium.com/v2/resize:fit:1400/1*LrRIFrplsmGYko_JImnUHw.jpeg"
-                alt="Benefits"
-              />
+              <img src={image1} alt="Benefits" />
             </div>
             <div className="content-above-right">
               <link
