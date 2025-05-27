@@ -1,0 +1,236 @@
+/*Login Page*/
+.face {
+  background-image: url("src/images/BD-login.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #9ce1edad;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #eeeeee;
+  background-color: #ffffffa1;
+  border-radius: 10px;
+  gap: 20px;
+  padding: 50px;
+}
+.content h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5em;
+  color: rgb(110, 110, 110);
+  font-weight: bold;
+}
+.content span {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+.link-no {
+  text-decoration: none;
+  color: rgb(110, 110, 110);
+  font-weight: bold;
+}
+.link-no:hover {
+  color: rgb(252, 77, 77);
+  text-decoration: underline;
+}
+.field-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.wrap-submit {
+  background-color: rgb(252, 77, 77);
+  color: white;
+  border: 1px solid #fdfdfd;
+  border-radius: 15px;
+  padding: 10px 120px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+}
+input[type="text"],
+input[type="password"] {
+  width: 300px;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #aaa;
+  border-radius: 15px;
+  font-size: 16px;
+}
+/*---------------------------------------------------------------------------*/
+/*Home Page*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+}
+.hd-component {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin: 7px auto;
+}
+.hd-component .slogan {
+  display: flex;
+  font-size: 2.5em;
+  flex-direction: column;
+  font-family: "Italianno", cursive;
+  color: rgb(240, 57, 57);
+  font-weight: bold;
+}
+.hd-component img {
+  max-width: 100vh;
+  height: 100px;
+}
+.hd-component .authorization {
+  font-size: 1.5em;
+}
+
+/*Navbar*/
+.nb-container {
+  width: 100%;
+}
+.nb-component {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  gap: 100px;
+  padding: 10px;
+}
+
+.item a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+.item a:hover {
+  color: #9ab7f4;
+  text-decoration: underline;
+}
+/*Banner*/
+.bd-banner img {
+  width: 100%;
+  height: 70vh;
+}
+
+.bd-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 100px 0;
+  padding: 50px;
+  gap: 10px;
+}
+
+.bd-content-above {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  width: 70%;
+  margin: 0 auto;
+  gap: 0;
+}
+
+.content-above-left,
+.content-above-right {
+  flex: 1 1 0;
+  width: 50%;
+}
+.content-above-right {
+  background-color: red;
+  border-radius: 30px;
+  font-family: "Roboto", sans-serif;
+  padding: 20px 0;
+  color: white;
+}
+.content-above-right h3 {
+  font-size: 2em;
+  margin: 20px 0;
+}
+.content-above-right ul li {
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+.content-above-right p {
+  font-size: 1.5em;
+  color: beige;
+}
+.content-above-left {
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 20px;
+}
+.content-above-left img {
+  width: 90%;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
+
+.bd-content-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 50px;
+  background-color: red;
+  box-sizing: border-box;
+  padding: 50px;
+}
+.content-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin: 20px;
+}
+.content-detail {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1em;
+  background-color: white;
+  border: 1px solid rgb(237, 102, 102);
+  border-radius: 20px;
+  width: 100%;
+  margin: 0 20px;
+  padding: 70px;
+}
+.bd-content-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+.content-bottom-detail {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3em;
+  background-color: white;
+  border: 5px solid rgb(237, 102, 102);
+  border-radius: 20px;
+  width: 100%;
+  padding: 70px;
+  margin: 0 20px;
+}
+.content-bottom-detail ul li {
+  padding: 10px;
+}
