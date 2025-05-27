@@ -1,5 +1,4 @@
 import React from "react";
-import "./style.css";
 import { Link } from "react-router";
 export default function Register() {
   return (
@@ -15,7 +14,8 @@ export default function Register() {
               type="password"
               name="password"
               placeholder="Password"
-              autoComplete="new-password"
+              pattern="[A-Za-z0-9]{6,}"
+              required
             />
           </div>
           <br />
