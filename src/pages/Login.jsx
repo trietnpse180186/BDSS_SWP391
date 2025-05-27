@@ -16,7 +16,7 @@ export default function Login() {
                 type="password"
                 name="password"
                 placeholder="Password"
-                autoComplete="new-password"
+                pattern="[A-Za-z0-9]{6,}"
               />
             </div>
             <br></br>
