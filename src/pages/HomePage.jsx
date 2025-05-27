@@ -26,12 +26,9 @@ export default function HomePage() {
               <ul style={{ listStyleType: "none" }}>
                 <li>
                   <Link
-                    className="link-no"
+                    className="link-home"
                     to="/login"
                     style={{
-                      textDecoration: "none",
-                      color: "red",
-                      fontWeight: "bold",
                       fontFamily: "Roboto, sans-serif",
                     }}
                   >
