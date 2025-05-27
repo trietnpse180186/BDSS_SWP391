@@ -68,7 +68,7 @@ export default function HomePage() {
           <div className="bd-content-above">
             <div className="content-above-left">
               <img
-                src="https://miro.medium.com/v2/resize:fit:1400/1*LrRIFrplsmGYko_JImnUHw.jpeg"
+                src="src/images/image1.jpg"
                 alt="Benefits"
               />
             </div>
