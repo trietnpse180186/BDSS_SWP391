@@ -1,6 +1,6 @@
 import React from "react";
 import { FaBell, FaCog } from "react-icons/fa";
-import "./style.css";
+import "./HomePage.css";
 import { Link } from "react-router";
 import banner from "../images/banner.jpeg";
 import logo from "../images/logo.jpeg";
@@ -52,6 +52,9 @@ export default function HomePage() {
             </div>
             <div className="item">
               <a href="#">Hỏi Đáp</a>
+            </div>
+            <div className="item">
+              <a href="#">Blog</a>
             </div>
             <div className="item">
               <a href="#">Liên hệ</a>
